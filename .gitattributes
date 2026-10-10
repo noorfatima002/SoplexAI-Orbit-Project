@@ -1,0 +1,4 @@
+# Keep consistent line endings between Windows, Mac and Docker
+* text=auto
+*.sh text eol=lf
+Dockerfile text eol=lf

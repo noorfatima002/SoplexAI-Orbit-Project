@@ -1,0 +1,9 @@
+# Lower bounds only, so installs work on Python 3.12 (Docker) and newer local versions.
+# Once everything runs, freeze exact versions:  pip freeze > requirements.lock
+fastapi>=0.115
+uvicorn[standard]>=0.30
+sqlalchemy>=2.0.30
+alembic>=1.13
+psycopg[binary]>=3.2.10
+pydantic>=2.7
+pydantic-settings>=2.3

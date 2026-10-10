@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+venv/
+.venv/
+
+# Secrets - NEVER commit real values. Only .env.example is allowed.
+.env
+.env.*
+!.env.example
+
+# Local databases and logs
+*.db
+*.sqlite3
+*.log
+
+# Node / frontend
+node_modules/
+.next/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
