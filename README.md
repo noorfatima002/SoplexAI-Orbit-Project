@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SoplexAI Orbit - AI Sales Intelligence & Automation (Phase 1 setup)
 
 Phase 1 goal: a reproducible development environment (FastAPI + PostgreSQL + n8n), a draft data model,
@@ -100,3 +101,8 @@ docs/                  architecture, data model, security, stack and risks
 
 ## Demo script (Phase 1 evidence)
 1. `docker compose up --build`  2. open `/health`  3. POST a company  4. show the row with `psql`  5. run `pytest`
+=======
+# SoplexAI-Orbit-Project
+SoplexAI Orbit — Phase 1 is a software development project focused on building and organizing an AI-powered application using modern development practices. The project emphasizes structured code organization, environment configuration, Docker-based containerization, and clear project documentation. It aims to establish a reliable foundation for application development, testing, and deployment while following best practices for maintainability, scalability, and efficient development workflows.
+
+>>>>>>> origin/main
